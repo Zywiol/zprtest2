@@ -165,7 +165,7 @@ edited_df = st.data_editor(
         "Nazwa produktu dostawcy": st.column_config.TextColumn(disabled=False),
         "Indeks dostawcy": st.column_config.NumberColumn(disabled=False),
         "Jednostka dostawcy": st.column_config.TextColumn(disabled=False),
-        "Masa w przypadku opakowań [KG]": st.column_config.TextColumn(disabled=False),
+        "Masa w przypadku opakowań [KG]": st.column_config.NumberColumn(disabled=False),
         "Cena netto": st.column_config.NumberColumn(
             label="Cena netto",
             format="%.2f"
